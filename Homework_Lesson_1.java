@@ -40,7 +40,7 @@ class Homework_Lesson_1 {
 	
 	static boolean takeTwoNumbers(int a, int b) {
 		// Метод проверяет, лежит ли сумма в диапазоне от 10 до 20 и возвращает true или false
-		if ((a + b) > 10 && (a + b) < 20)
+		if ((a + b) >= 10 && (a + b) <= 20)
 			return true;
 		else
 			return false;
